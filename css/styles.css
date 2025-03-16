@@ -25,6 +25,7 @@ button {
 }
 
 .header-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
 
@@ -53,15 +54,15 @@ button {
   color: #2e2f42;
 }
 .header-menu-link:hover,
-.header-menu-link:active {
+.header-menu-link:focus {
   color: #404bbf;
 }
 
 .header-address {
-  font-style: normal;
 }
 
 .header-address-item {
+  font-style: normal;
 }
 
 .header-address-link {
@@ -71,7 +72,8 @@ button {
   color: #434455;
 }
 
-.header-address-link:hover {
+.header-address-link:hover,
+.header-address-link:focus {
   color: #404bbf;
 }
 
@@ -103,7 +105,8 @@ button {
   background: #4d5ae5;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background: #404bbf;
 }
 
