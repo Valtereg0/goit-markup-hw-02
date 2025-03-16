@@ -58,8 +58,11 @@ button {
   color: #404bbf;
 }
 
-.header-address {
+.address {
   font-style: normal;
+}
+
+.header-address {
 }
 
 .header-address-item {
